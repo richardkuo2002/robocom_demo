@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/demo.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/demo.js"></script>
+    <title>Menu Demo</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <img src="assets/img/menu_logo.png" class="menu logo">
+        <div class="table num"></div>
+        <img src="assets/IMG/lexus_logo.png" class="lexus logo">
+    </nav>
+    <!-- 下拉式選單 -->
+    <div class="type">
+        <div class="item">
+            <img src="assets/img/all_items.png">
+            <div>全部品項 </div>
+        </div>
+        <div class="item">
+            <img src="assets/img/cofe_icon.png">
+            <div>咖啡 </div>
+        </div>
+        <div class="item">
+            <img src="assets/img/tea_icon.png">
+            <div>茶類 </div>
+        </div>
+        <div class="item">
+            <img src="assets/img/soda_icon.png">
+            <div>氣泡飲 </div>
+        </div>
+    </div>
+    <!-- 下拉式選單 結束 -->
+    <form method="post" action="">
+        <main>
+            <div class="item">
+                <img src="assets/IMG/cocacola.png">
+                <div class="name">可口可樂</div>
+                <div class="input_block">
+                    <input type='button' value='-' class='qtyminus' field='cola_quantity' />
+                    <input type='text' name='cola_quantity' value='0' class='qty' />
+                    <input type='button' value='+' class='qtyplus' field='cola_quantity' />
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/IMG/sprite.png">
+                <div class="name">雪碧</div>
+                <div class="input_block">
+                    <input type='button' value='-' class='qtyminus' field='sprite_quantity' />
+                    <input type='text' name='sprite_quantity' value='0' class='qty' />
+                    <input type='button' value='+' class='qtyplus' field='sprite_quantity' />
+                </div>
+            </div>
+        </main>
+        <center>
+            <button type="submit" class="submit">送出</button>
+        </center>
+    </form>
+</body>
+
+</html>
